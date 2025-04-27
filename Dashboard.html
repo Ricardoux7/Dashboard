@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-gradient-to-b from-[#5800FF] via-[#5800FF] via-[#1E29C8] via-[#00D7FF] to-[#00D7FF]">
+        <!--Heander-->
         <header class="bg-sky-600 h-[80px] w-[90%] rounded-xl flex items-center translate-y-5 shadow-lg mx-auto justify-between px-[5%]">
             <label for="menu" class="md:hidden">
                 <img src="Icons/menu.svg" alt="" class="w-[20px] mr-[10%] ml-[20px] cursor-pointer">
@@ -18,6 +19,7 @@
             <img src="Icons/campana.svg" alt="" width="30px" class="cursor-pointer">
         </header>
         <main class="relative">
+            <!--Barra Lateral-->
             <input type="checkbox" id="menu" name="menu" class="peer/menu hidden">
             <label for="menu" class="h-full w-full peer-checked/menu:bg-[rgba(0,0,0,0.8)] fixed top-0 left-0 hidden peer-checked/menu:block z-10"></label>
             <aside class="top-0 bg-white h-[100%] w-[50%] rounded-r-[10px] fixed flex-col block items-center z-10 translate-x-[-100%] peer-checked/menu:translate-x-[0%] md:hidden transition-transform duration-500">
@@ -43,8 +45,7 @@
                     </li>
                 </ul>
             </aside>
-
-
+            <!--Estadisticas-->>
             <section class="w-[100%] relative h-auto flex flex-col md:flex-row md:gap-[20px] mt-[50px]">
                 <div class="w-[90%] mx-auto flex flex-col ">
                     <div class="h-[200px] w-[300px] bg-sky-600 rounded-xl shadow-lg mx-auto" data-aos="flip-left" data-aos-duration="500" >
@@ -88,7 +89,6 @@
                         <h5 class="text-black font-bold">22%</h5>
                     </div>
                 </div>
-
                 <h2 class="text-white font-bold mt-[50px] mx-auto">Balance</h2>
                 <div class="bg-slate-700 w-[90%] md:w-[50%]2 h-[300px] mt-[10px] flex gap-[10px] justify-between items-end mb-[100px] mx-auto">
                     <div class="bg-red-400 w-[50%] h-[100px] flex flex-col items-center">
@@ -99,6 +99,7 @@
                     </div>
                 </div>
                 </div>
+                <!--Transacciones-->
                 <div class="min-h-full top-0 w-[90%] md:w-[40%] bg-green-200 rounded-[20px] mt-[5px] font-sans font-bold mx-auto md:mr-[2%]">
                     <div class="flex justify-between items-center mx-[20px] gap-[20px] ">
                         <h1 class="text-center font-sans">Last 7 transactions</h1>
@@ -164,6 +165,7 @@
                         </ul>
                     </div>
             </section>
+            <!--Referidos-->
             <section class="w-[100%] flex flex-col items-center mt-[1%] mb-[50px]">
                 <div class="h-[400px] w-[90%] bg-[#53d4ff] rounded-xl mb-[50px] flex flex-col items-center justify-center mt-[50px] mx-auto" data-aos="fade-up">
                     <img src="Images/computadora.png" alt="" width="200px">
@@ -189,7 +191,7 @@
                     </ul>
                 </div>
             </section>
-
+            <!--Informacion-->
             <div class="flex justify-center items-center gap-[20px] mb-[50px]">
                 <div class="flex text-center text-white gap-[10px] cursor-pointer">
                     <img src="Icons/feedback.svg" alt="" width="40px">
